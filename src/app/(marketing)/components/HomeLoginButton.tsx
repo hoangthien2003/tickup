@@ -8,5 +8,5 @@ export default function HomeLoginButton() {
   const navigateToLogin = () => {
     router.push("/login");
   };
-  return <Button onClick={navigateToLogin}>Đăng nhập</Button>;
+  return <Button onClick={navigateToLogin}>Login</Button>;
 }
